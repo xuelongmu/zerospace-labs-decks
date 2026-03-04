@@ -719,9 +719,8 @@
     .slide-growth .accent-line { width: 60px; margin-bottom: 0.4em; }
     .slide-growth .growth-layout {
       display: grid;
-      grid-template-columns: 1.3fr 1fr;
+      grid-template-columns: 1fr 1fr;
       gap: 2.5em;
-      flex: 1;
     }
     .slide-growth .growth-col h3 {
       font-family: var(--font-heading);
@@ -975,7 +974,7 @@
               <div class="stat-label">Event Registrations</div>
             </div>
             <div class="stat-tile cyan">
-              <div class="stat-num">4,100+</div>
+              <div class="stat-num">4,200+</div>
               <div class="stat-label">Approved Attendees</div>
             </div>
             <div class="stat-tile lime">
@@ -1541,15 +1540,14 @@
                     <stop offset="100%" stop-color="#D8FF32" stop-opacity="0.02"/>
                   </linearGradient>
                 </defs>
-                <!-- Y-axis labels (single scale 0-3000) -->
+                <!-- Y-axis labels (linear scale 0-3000) -->
                 <text x="35" y="24" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">3,000</text>
-                <text x="35" y="79" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">2,000</text>
-                <text x="35" y="134" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">1,000</text>
+                <text x="35" y="97" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">2,000</text>
+                <text x="35" y="171" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">1,000</text>
                 <!-- grid lines -->
                 <line x1="40" y1="21" x2="800" y2="21" stroke="#333" stroke-width="0.5"/>
-                <line x1="40" y1="76" x2="800" y2="76" stroke="#333" stroke-width="0.5"/>
-                <line x1="40" y1="131" x2="800" y2="131" stroke="#333" stroke-width="0.5"/>
-                <line x1="40" y1="186" x2="800" y2="186" stroke="#333" stroke-width="0.5" stroke-dasharray="4,4"/>
+                <line x1="40" y1="94.3" x2="800" y2="94.3" stroke="#333" stroke-width="0.5"/>
+                <line x1="40" y1="167.7" x2="800" y2="167.7" stroke="#333" stroke-width="0.5"/>
                 <!-- baseline -->
                 <line x1="40" y1="241" x2="800" y2="241" stroke="#555" stroke-width="1"/>
                 <!-- per-event line (cyan) -->
@@ -1604,7 +1602,7 @@
                 <line x1="160" y1="278" x2="180" y2="278" stroke="#D8FF32" stroke-width="2.5"/>
                 <text x="185" y="282" fill="#D8FF32" font-size="11" font-family="Roboto Condensed, sans-serif">Cumulative</text>
               </svg>
-              <p class="growth-note"><strong>13x growth</strong> from 33 (Dec '24) to 425 (Jan '26). 14 events, 2,977 cumulative approved.</p>
+              <p class="growth-note"><strong>13x growth</strong> from 33 (Dec '24) to 425 (Jan '26). 14 events, 2,977 cumulative approved. ~24% return rate.</p>
             </div>
             <div class="growth-col">
               <h3>DATLAB NYC &mdash; Approved Attendees</h3>
@@ -1615,58 +1613,60 @@
                     <stop offset="100%" stop-color="#D8FF32" stop-opacity="0.02"/>
                   </linearGradient>
                 </defs>
-                <!-- Y-axis labels (single scale 0-1000) -->
-                <text x="35" y="24" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">1,000</text>
-                <text x="35" y="79" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">750</text>
-                <text x="35" y="134" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">500</text>
-                <text x="35" y="189" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">250</text>
+                <!-- Y-axis labels (single scale 0-1250) -->
+                <text x="35" y="24" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">1,250</text>
+                <text x="35" y="68" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">1,000</text>
+                <text x="35" y="112" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">750</text>
+                <text x="35" y="156" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">500</text>
+                <text x="35" y="200" text-anchor="end" fill="#666" font-size="9" font-family="Roboto Condensed, sans-serif">250</text>
                 <!-- grid lines -->
                 <line x1="40" y1="21" x2="800" y2="21" stroke="#333" stroke-width="0.5"/>
-                <line x1="40" y1="76" x2="800" y2="76" stroke="#333" stroke-width="0.5"/>
-                <line x1="40" y1="131" x2="800" y2="131" stroke="#333" stroke-width="0.5"/>
-                <line x1="40" y1="186" x2="800" y2="186" stroke="#333" stroke-width="0.5"/>
+                <line x1="40" y1="65" x2="800" y2="65" stroke="#333" stroke-width="0.5"/>
+                <line x1="40" y1="109" x2="800" y2="109" stroke="#333" stroke-width="0.5"/>
+                <line x1="40" y1="153" x2="800" y2="153" stroke="#333" stroke-width="0.5"/>
+                <line x1="40" y1="197" x2="800" y2="197" stroke="#333" stroke-width="0.5"/>
                 <!-- baseline -->
                 <line x1="40" y1="241" x2="800" y2="241" stroke="#555" stroke-width="1"/>
-                <!-- per-event line (lime) -->
-                <polyline points="130,200.5 320,198.5 510,226 630,190.4 750,182.5" fill="none" stroke="#D8FF32" stroke-width="2.5"/>
-                <circle cx="130" cy="200.5" r="3.5" fill="#D8FF32"/>
-                <circle cx="320" cy="198.5" r="3.5" fill="#D8FF32"/>
-                <circle cx="510" cy="226" r="3.5" fill="#D8FF32"/>
-                <circle cx="630" cy="190.4" r="3.5" fill="#D8FF32"/>
-                <circle cx="750" cy="182.5" r="3.5" fill="#D8FF32"/>
+                <!-- per-event line (cyan) -->
+                <polyline points="40,208.6 230,207 420,209.1 610,200.5 800,194.2" fill="none" stroke="#00FFFF" stroke-width="2.5"/>
+                <circle cx="40" cy="208.6" r="3.5" fill="#00FFFF"/>
+                <circle cx="230" cy="207" r="3.5" fill="#00FFFF"/>
+                <circle cx="420" cy="209.1" r="3.5" fill="#00FFFF"/>
+                <circle cx="610" cy="200.5" r="3.5" fill="#00FFFF"/>
+                <circle cx="800" cy="194.2" r="3.5" fill="#00FFFF"/>
                 <!-- per-event value labels -->
-                <text x="130" y="194" text-anchor="middle" fill="#D8FF32" font-size="12" font-weight="700" font-family="Oswald, sans-serif">184</text>
-                <text x="320" y="192" text-anchor="middle" fill="#D8FF32" font-size="12" font-weight="700" font-family="Oswald, sans-serif">193</text>
-                <text x="510" y="220" text-anchor="middle" fill="#D8FF32" font-size="12" font-weight="700" font-family="Oswald, sans-serif">68</text>
-                <text x="630" y="184" text-anchor="middle" fill="#D8FF32" font-size="12" font-weight="700" font-family="Oswald, sans-serif">230</text>
-                <text x="750" y="176" text-anchor="middle" fill="#D8FF32" font-size="12" font-weight="700" font-family="Oswald, sans-serif">266</text>
+                <text x="40" y="202" text-anchor="start" fill="#00FFFF" font-size="12" font-weight="700" font-family="Oswald, sans-serif">184</text>
+                <text x="230" y="200" text-anchor="middle" fill="#00FFFF" font-size="12" font-weight="700" font-family="Oswald, sans-serif">193</text>
+                <text x="420" y="203" text-anchor="middle" fill="#00FFFF" font-size="12" font-weight="700" font-family="Oswald, sans-serif">181</text>
+                <text x="610" y="194" text-anchor="middle" fill="#00FFFF" font-size="12" font-weight="700" font-family="Oswald, sans-serif">230</text>
+                <text x="800" y="188" text-anchor="middle" fill="#00FFFF" font-size="12" font-weight="700" font-family="Oswald, sans-serif">266</text>
                 <!-- cumulative area fill -->
-                <polygon points="130,241 130,200.5 320,158.1 510,143.1 630,92.5 750,34 750,241" fill="url(#cumGradD)"/>
-                <!-- cumulative line (cyan) -->
-                <polyline points="130,200.5 320,158.1 510,143.1 630,92.5 750,34" fill="none" stroke="#00FFFF" stroke-width="2.5"/>
-                <circle cx="130" cy="200.5" r="3.5" fill="#00FFFF"/>
-                <circle cx="320" cy="158.1" r="3.5" fill="#00FFFF"/>
-                <circle cx="510" cy="143.1" r="3.5" fill="#00FFFF"/>
-                <circle cx="630" cy="92.5" r="3.5" fill="#00FFFF"/>
-                <circle cx="750" cy="34" r="4" fill="#00FFFF"/>
-                <text x="735" y="28" text-anchor="end" fill="#00FFFF" font-size="12" font-weight="700" font-family="Oswald, sans-serif">941</text>
+                <polygon points="40,241 40,208.6 230,174.6 420,142.8 610,102.3 800,55.5 800,241" fill="url(#cumGradD)"/>
+                <!-- cumulative line (lime) -->
+                <polyline points="40,208.6 230,174.6 420,142.8 610,102.3 800,55.5" fill="none" stroke="#D8FF32" stroke-width="2.5"/>
+                <circle cx="40" cy="208.6" r="3.5" fill="#D8FF32"/>
+                <circle cx="230" cy="174.6" r="3.5" fill="#D8FF32"/>
+                <circle cx="420" cy="142.8" r="3.5" fill="#D8FF32"/>
+                <circle cx="610" cy="102.3" r="3.5" fill="#D8FF32"/>
+                <circle cx="800" cy="55.5" r="4" fill="#D8FF32"/>
+                <text x="785" y="49" text-anchor="end" fill="#D8FF32" font-size="12" font-weight="700" font-family="Oswald, sans-serif">1,054</text>
                 <!-- event labels -->
-                <text x="130" y="257" fill="#777" font-size="9" font-family="Roboto Condensed, sans-serif" text-anchor="middle">Event X</text>
-                <text x="320" y="257" fill="#777" font-size="9" font-family="Roboto Condensed, sans-serif" text-anchor="middle">XI</text>
-                <text x="510" y="257" fill="#777" font-size="9" font-family="Roboto Condensed, sans-serif" text-anchor="middle">XII</text>
-                <text x="630" y="257" fill="#777" font-size="9" font-family="Roboto Condensed, sans-serif" text-anchor="middle">XIII</text>
-                <text x="750" y="257" fill="#777" font-size="9" font-family="Roboto Condensed, sans-serif" text-anchor="middle">XIV</text>
+                <text x="40" y="257" fill="#777" font-size="9" font-family="Roboto Condensed, sans-serif" text-anchor="middle">Event X</text>
+                <text x="230" y="257" fill="#777" font-size="9" font-family="Roboto Condensed, sans-serif" text-anchor="middle">XI</text>
+                <text x="420" y="257" fill="#777" font-size="9" font-family="Roboto Condensed, sans-serif" text-anchor="middle">XII</text>
+                <text x="610" y="257" fill="#777" font-size="9" font-family="Roboto Condensed, sans-serif" text-anchor="middle">XIII</text>
+                <text x="800" y="257" fill="#777" font-size="9" font-family="Roboto Condensed, sans-serif" text-anchor="middle">XIV</text>
                 <!-- legend -->
-                <line x1="40" y1="278" x2="60" y2="278" stroke="#D8FF32" stroke-width="2.5"/>
-                <circle cx="50" cy="278" r="2.5" fill="#D8FF32"/>
-                <text x="65" y="282" fill="#D8FF32" font-size="11" font-family="Roboto Condensed, sans-serif">Per Event</text>
-                <line x1="160" y1="278" x2="180" y2="278" stroke="#00FFFF" stroke-width="2.5"/>
-                <text x="185" y="282" fill="#00FFFF" font-size="11" font-family="Roboto Condensed, sans-serif">Cumulative</text>
+                <line x1="40" y1="278" x2="60" y2="278" stroke="#00FFFF" stroke-width="2.5"/>
+                <circle cx="50" cy="278" r="2.5" fill="#00FFFF"/>
+                <text x="65" y="282" fill="#00FFFF" font-size="11" font-family="Roboto Condensed, sans-serif">Per Event</text>
+                <line x1="160" y1="278" x2="180" y2="278" stroke="#D8FF32" stroke-width="2.5"/>
+                <text x="185" y="282" fill="#D8FF32" font-size="11" font-family="Roboto Condensed, sans-serif">Cumulative</text>
               </svg>
-              <p class="growth-note"><strong>941</strong> total approved across 5 events. <strong>712</strong> unique guests (deduped across Luma + Partiful). ~24% return rate.</p>
-              <p class="growth-note" style="margin-top: 0.6em; padding-top: 0.5em; border-top: 1px solid #444;">With Gen AI Film Jam + Vibe Coding, we project <strong>20+ events in 2026</strong> across four series.</p>
+              <p class="growth-note"><strong>1.4x growth</strong> from 184 (Event X) to 266 (Event XIV). 5 events, 1,054 cumulative approved. ~27% return rate.</p>
             </div>
           </div>
+          <p class="growth-note" style="text-align: center; margin-top: 0.3em; padding-top: 0.5em; border-top: 1px solid #444;">With Gen AI Film Jam + Vibe Coding Championship launching in 2026, we project <strong>20+ events</strong> across four series.</p>
         </div>
       </section>
 
