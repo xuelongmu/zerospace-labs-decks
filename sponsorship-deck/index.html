@@ -70,13 +70,8 @@
       line-height: 1.5;
     }
     .reveal .slides section .accent-line {
-      display: block;
-      height: 3px;
-      border: none;
-      margin: 0;
+      display: none;
     }
-    .reveal .slides section .accent-line.cyan { background: var(--accent-cyan); }
-    .reveal .slides section .accent-line.lime { background: var(--accent-lime); }
 
     /* ── Shared: full-bleed background ────────────────── */
     .slide-bg {
@@ -142,8 +137,9 @@
     }
     .slide-cover .tagline {
       font-family: var(--font-light);
-      font-size: 0.85em;
-      color: var(--text-muted);
+      font-size: 0.92em;
+      font-weight: 400;
+      color: var(--text-white);
     }
     .slide-cover .accent-line {
       width: 100px;
@@ -185,11 +181,11 @@
       margin: 0.8em auto 0;
     }
     .slide-statement .body-text {
-      max-width: 70%;
+      max-width: 75%;
       text-align: center;
       margin-top: 0.6em;
-      font-size: 0.7em;
-      color: var(--text-muted);
+      font-size: 0.95em;
+      color: var(--text-white);
       line-height: 1.6;
     }
 
@@ -214,7 +210,7 @@
     .slide-section .accent-line { width: 200px; margin: 0.6em 0; }
     .slide-section .section-desc {
       font-family: var(--font-light);
-      font-size: 0.75em;
+      font-size: 0.85em;
       color: var(--text-muted);
     }
 
@@ -252,7 +248,7 @@
     }
     .slide-stats .stat-label {
       font-family: var(--font-condensed);
-      font-size: 0.65em;
+      font-size: 0.75em;
       color: var(--text-muted);
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -265,7 +261,7 @@
     .slide-logos .logo-section { margin-bottom: 0.9em; }
     .slide-logos .logo-section-label {
       font-family: var(--font-condensed);
-      font-size: 0.6em;
+      font-size: 0.7em;
       color: var(--accent-cyan);
       text-transform: uppercase;
       letter-spacing: 0.1em;
@@ -274,7 +270,7 @@
     .slide-logos .logo-section-names {
       font-family: var(--font-body);
       font-weight: 300;
-      font-size: 0.7em;
+      font-size: 0.8em;
       color: var(--text-white);
       line-height: 1.6;
     }
@@ -324,7 +320,7 @@
       line-height: 1;
     }
     .slide-audience .insight-card .insight-text {
-      font-size: 0.65em;
+      font-size: 0.75em;
       color: var(--text-muted);
       margin-top: 0.3em;
     }
@@ -345,7 +341,7 @@
     }
     .slide-split .split-text .category {
       font-family: var(--font-condensed);
-      font-size: 0.65em;
+      font-size: 0.72em;
       color: var(--accent-cyan);
       text-transform: uppercase;
       letter-spacing: 0.1em;
@@ -354,15 +350,15 @@
     .slide-split .split-text h2 { font-size: 1.5em; margin-bottom: 0.15em; }
     .slide-split .split-text .event-meta {
       font-family: var(--font-condensed);
-      font-size: 0.65em;
+      font-size: 0.72em;
       color: var(--accent-lime);
       margin-bottom: 0.4em;
     }
     .slide-split .split-text .accent-line { width: 50px; margin: 0.4em 0; }
-    .slide-split .split-text p { font-size: 0.65em; margin-bottom: 0.4em; }
+    .slide-split .split-text p { font-size: 0.78em; margin-bottom: 0.4em; }
     .slide-split .split-text .sponsor-label {
       font-family: var(--font-condensed);
-      font-size: 0.55em;
+      font-size: 0.72em;
       color: var(--text-muted);
       text-transform: uppercase;
       letter-spacing: 0.08em;
@@ -370,12 +366,12 @@
     }
     .slide-split .split-text .sponsor-names {
       font-family: var(--font-body);
-      font-size: 0.6em;
+      font-size: 0.78em;
       color: var(--text-white);
     }
     .slide-split .split-text .ideal-label {
       font-family: var(--font-condensed);
-      font-size: 0.55em;
+      font-size: 0.72em;
       color: var(--text-muted);
       text-transform: uppercase;
       letter-spacing: 0.08em;
@@ -383,7 +379,7 @@
     }
     .slide-split .split-text .ideal-names {
       font-family: var(--font-body);
-      font-size: 0.58em;
+      font-size: 0.78em;
       color: var(--accent-cyan);
       font-style: italic;
     }
@@ -407,7 +403,7 @@
       margin: 0.5em 0 0 0;
     }
     .slide-split .value-props li {
-      font-size: 0.6em;
+      font-size: 0.72em;
       color: var(--text-muted);
       padding: 0.2em 0;
       padding-left: 1em;
@@ -435,14 +431,14 @@
     }
     .slide-fullbleed h2 { font-size: 1.8em; margin-bottom: 0.2em; }
     .slide-fullbleed .accent-line { width: 60px; margin: 0.5em 0; }
-    .slide-fullbleed p { font-size: 0.75em; }
+    .slide-fullbleed p { font-size: 0.85em; }
     .slide-fullbleed ul {
       list-style: none;
       padding: 0;
       margin: 0.5em 0;
     }
     .slide-fullbleed ul li {
-      font-size: 0.7em;
+      font-size: 0.8em;
       padding: 0.25em 0;
       padding-left: 1.2em;
       position: relative;
@@ -470,7 +466,7 @@
     .slide-venue h2 { font-size: 1.4em; margin-bottom: 0.15em; }
     .slide-venue .accent-line { width: 60px; margin-bottom: 0.3em; }
     .slide-venue .venue-subtitle {
-      font-size: 0.65em;
+      font-size: 0.75em;
       color: var(--text-muted);
       margin: 0;
     }
@@ -497,10 +493,10 @@
       bottom: 0;
       left: 0;
       right: 0;
-      padding: 0.5em 0.6em 0.35em;
-      background: linear-gradient(transparent, rgba(0,0,0,0.5));
+      padding: 1.2em 0.6em 0.5em;
+      background: linear-gradient(transparent, rgba(0,0,0,0.85));
       font-family: var(--font-condensed);
-      font-size: 0.55em;
+      font-size: 0.78em;
       font-weight: 300;
       color: var(--text-white);
       letter-spacing: 0.04em;
@@ -512,9 +508,9 @@
     .slide-venue .venue-stats {
       display: flex;
       gap: 2em;
-      margin-top: 0.5em;
+      margin-top: 1.2em;
       font-family: var(--font-condensed);
-      font-size: 0.5em;
+      font-size: 0.78em;
       color: var(--text-muted);
     }
     .slide-venue .venue-stats strong {
@@ -570,16 +566,17 @@
       justify-content: flex-end;
       padding: 1em;
       background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.35) 45%, transparent 100%);
+      pointer-events: none;
     }
-    .slide-grid .cap-card h4 { font-size: 0.75em; margin-bottom: 0.3em; }
-    .slide-grid .cap-card p { font-size: 0.55em; margin: 0; }
+    .slide-grid .cap-card h4 { font-size: 0.85em; margin-bottom: 0.3em; }
+    .slide-grid .cap-card p { font-size: 0.72em; margin: 0; }
 
     /* ── SLIDE: Tiers Table ──────────────────────────── */
     .slide-tiers .slide-content { padding-top: 1.8em; }
     .slide-tiers h2 { font-size: 1.4em; margin-bottom: 0.15em; }
     .slide-tiers .tier-subtitle {
       font-family: var(--font-condensed);
-      font-size: 0.65em;
+      font-size: 0.75em;
       color: var(--text-muted);
       margin-bottom: 0.8em;
     }
@@ -587,7 +584,7 @@
     .slide-tiers table {
       width: 100%;
       border-collapse: collapse;
-      font-size: 0.6em;
+      font-size: 0.68em;
     }
     .slide-tiers thead th {
       font-family: var(--font-heading);
@@ -630,7 +627,7 @@
     /* ── SLIDE: A La Carte Pricing ───────────────────── */
     .slide-pricing .slide-content { padding-top: 1.8em; }
     .slide-pricing h2 { font-size: 1.4em; margin-bottom: 0.15em; }
-    .slide-pricing .accent-line { width: 60px; margin-bottom: 0.8em; }
+    .slide-pricing .accent-line { width: 60px; margin-bottom: 0.4em; }
     .slide-pricing .pricing-layout {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -638,7 +635,7 @@
       flex: 1;
     }
     .slide-pricing .pricing-col h3 {
-      font-size: 0.75em;
+      font-size: 0.85em;
       margin-bottom: 0.5em;
       color: var(--accent-cyan);
     }
@@ -651,12 +648,12 @@
     }
     .slide-pricing .price-item .item-name {
       font-family: var(--font-condensed);
-      font-size: 0.65em;
+      font-size: 0.75em;
       color: var(--text-white);
     }
     .slide-pricing .price-item .item-price {
       font-family: var(--font-heading);
-      font-size: 0.65em;
+      font-size: 0.75em;
       font-weight: 600;
       color: var(--accent-lime);
       white-space: nowrap;
@@ -679,7 +676,7 @@
     .slide-pricing .price-item details summary::-webkit-details-marker { display: none; }
     .slide-pricing .price-item details summary .item-name::before {
       content: "▸ ";
-      font-size: 0.7em;
+      font-size: 0.9em;
       color: var(--text-muted);
       display: inline-block;
       transition: transform 0.3s ease;
@@ -701,7 +698,8 @@
     .slide-pricing .price-item details .item-desc-wrap .item-desc {
       overflow: hidden;
       font-family: var(--font-body);
-      font-size: 0.5em;
+      font-size: 0.7em;
+      font-weight: 300;
       color: var(--text-muted);
       line-height: 1.5;
       padding: 0 0 0 1em;
@@ -718,7 +716,7 @@
     /* ── SLIDE: Growth ───────────────────────────────── */
     .slide-growth .slide-content { padding-top: 2em; }
     .slide-growth h2 { font-size: 1.5em; margin-bottom: 0.2em; }
-    .slide-growth .accent-line { width: 60px; margin-bottom: 1em; }
+    .slide-growth .accent-line { width: 60px; margin-bottom: 0.4em; }
     .slide-growth .growth-layout {
       display: grid;
       grid-template-columns: 1.3fr 1fr;
@@ -727,7 +725,7 @@
     }
     .slide-growth .growth-col h3 {
       font-family: var(--font-heading);
-      font-size: 0.7em;
+      font-size: 0.8em;
       color: var(--accent-cyan);
       margin-bottom: 0.6em;
     }
@@ -740,7 +738,7 @@
     }
     .slide-growth .growth-bar-label {
       font-family: var(--font-condensed);
-      font-size: 0.5em;
+      font-size: 0.6em;
       color: var(--text-muted);
       text-align: right;
     }
@@ -758,11 +756,11 @@
     .slide-growth .growth-bar-fill.lime { background: var(--accent-lime); }
     .slide-growth .growth-bar-val {
       font-family: var(--font-heading);
-      font-size: 0.5em;
+      font-size: 0.6em;
       color: var(--text-white);
     }
     .slide-growth .growth-note {
-      font-size: 0.6em;
+      font-size: 0.7em;
       color: var(--text-muted);
       margin-top: 0.6em;
       line-height: 1.5;
@@ -794,7 +792,7 @@
       margin: 0;
     }
     .slide-partners .recognition-list li {
-      font-size: 0.65em;
+      font-size: 0.75em;
       padding: 0.3em 0;
       padding-left: 1em;
       position: relative;
@@ -825,7 +823,7 @@
     .slide-thanks .accent-line { width: 100px; margin: 0.3em auto 0.8em; }
     .slide-thanks .cta-text {
       font-family: var(--font-body);
-      font-size: 0.75em;
+      font-size: 0.85em;
       color: rgba(255,255,255,0.78);
       text-align: justify;
       text-align-last: center;
@@ -840,17 +838,17 @@
     }
     .slide-thanks .contact-title {
       font-family: var(--font-body);
-      font-size: 0.65em;
+      font-size: 0.75em;
       color: var(--text-muted);
       margin: 0.1em 0 0.4em;
     }
     .slide-thanks .contact-email {
-      font-size: 0.75em;
+      font-size: 0.85em;
       color: var(--accent-cyan);
       margin: 0.2em 0;
     }
     .slide-thanks .contact-url {
-      font-size: 0.65em;
+      font-size: 0.75em;
       color: var(--text-muted);
       margin: 0.2em 0;
     }
@@ -865,13 +863,13 @@
     }
     .slide-thanks .bottom-bar .brand {
       font-family: var(--font-brand);
-      font-size: 0.55em;
+      font-size: 0.65em;
       letter-spacing: 0.12em;
       color: var(--text-muted);
     }
     .slide-thanks .bottom-bar .sub {
       font-family: var(--font-light);
-      font-size: 0.45em;
+      font-size: 0.55em;
       color: var(--text-muted);
     }
 
@@ -914,7 +912,7 @@
           <div class="cover-symbol"></div>
           <p class="subtitle">ZeroSpace Labs</p>
           <h1>Partnership<br>Opportunities</h1>
-          <p class="tagline">NYC's Creative Technology Event Platform &mdash; 2026</p>
+          <p class="tagline">NYC's Creative Technology Event Platform</p>
           <hr class="accent-line lime">
         </div>
       </section>
@@ -924,10 +922,10 @@
         <div class="slide-bg heavy-overlay" style="background-image: url('assets/facilities_image22.webp');"></div>
         <div class="slide-content">
           <blockquote>
-            <p>The creative technology community doesn't have a home. We built one.</p>
+            <p>The best creative work doesn't happen in a feed. It happens in a room.</p>
           </blockquote>
           <hr class="accent-line lime">
-          <p class="body-text">ZeroSpace Labs is the event and community arm of ZeroSpace, a next-generation production studio in Brooklyn. Since 2020, we've built NYC's most active creative technology event platform &mdash; bringing together AI artists, developers, filmmakers, and engineers every month for hands-on learning, collaboration, and competition.</p>
+          <p class="body-text">ZeroSpace Labs is the community event arm of ZeroSpace, a next-generation production studio in Brooklyn. Since 2020, we've built NYC's most active creative technology event platform &mdash; bringing together AI artists, developers, filmmakers, and engineers every month for hands-on learning, collaboration, and competition.</p>
         </div>
         <div style="position: absolute; top: 62%; bottom: 1em; left: 2em; right: 2em; z-index: 1; display: flex; flex-direction: column;">
           <p style="font-family: var(--font-heading); font-size: 1em; color: var(--accent-cyan); text-transform: uppercase; letter-spacing: 0.08em; margin: 0 0 0.4em 0; text-align: center;">Cumulative Attendees</p>
@@ -1005,7 +1003,7 @@
               <div class="stat-label">Return Attendee Rate</div>
             </div>
           </div>
-          <p style="font-size: 0.6em; color: var(--text-muted); text-align: center; margin: 0;">December 2024 &ndash; February 2026 &middot; ComfyUI NYC + DATLAB NYC + Gen AI Film Jam + Vibe Coding</p>
+          <p style="font-size: 0.7em; color: var(--text-muted); text-align: center; margin: 0;">December 2024 &ndash; February 2026 &middot; ComfyUI NYC + DATLAB NYC + Gen AI Film Jam + Vibe Coding</p>
         </div>
       </section>
 
@@ -1074,7 +1072,7 @@
           </div>
           <div class="logo-section">
             <div class="logo-section-label">Top Universities</div>
-            <div class="logo-section-names">NYU <span>&middot;</span> Columbia <span>&middot;</span> Cornell <span>&middot;</span> MIT <span>&middot;</span> Stanford <span>&middot;</span> Harvard <span>&middot;</span> Berkeley <span>&middot;</span> Brown <span>&middot;</span> SVA <span>&middot;</span> Pratt <span>&middot;</span> New School <span>&middot;</span> Georgetown <span>&middot;</span> Vanderbilt <span>&middot;</span> Carnegie Mellon <span>&middot;</span> Georgia Tech <span>&middot;</span> Purdue <span>&middot;</span> UCLA</div>
+            <div class="logo-section-names">NYU <span>&middot;</span> Columbia <span>&middot;</span> Cornell <span>&middot;</span> MIT <span>&middot;</span> Stanford <span>&middot;</span> Harvard <span>&middot;</span> Berkeley <span>&middot;</span> Brown <span>&middot;</span> SVA <span>&middot;</span> Pratt <span>&middot;</span> New School <span>&middot;</span> Georgetown <span>&middot;</span> Vanderbilt <span>&middot;</span> Carnegie Mellon <span>&middot;</span> Georgia Tech <span>&middot;</span> UCLA</div>
           </div>
         </div>
       </section>
@@ -1163,7 +1161,7 @@
         <div class="split-text">
           <span class="category">Monthly Flagship</span>
           <h2>ComfyUI NYC</h2>
-          <p class="event-meta">Monthly &middot; 200&ndash;425 approved per event &middot; 14 events and counting</p>
+          <p class="event-meta">Monthly &middot; 400+ approved per event &middot; 14 events and counting</p>
           <hr class="accent-line lime">
           <p>The largest recurring ComfyUI event in the world. Presentations, demos, and networking for the open-source AI generation community. 13x growth from 33 approved (Dec 2024) to 425 (Jan 2026). 2,500+ mailing list members.</p>
           <p class="sponsor-label">Past Sponsors</p>
@@ -1173,7 +1171,7 @@
         </div>
         <div class="split-image" style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 3px;">
           <img src="assets/bts_4.webp" alt="ComfyUI NYC event">
-          <img src="assets/bts_1.webp" alt="ComfyUI NYC event">
+          <div style="overflow: hidden; width: 100%; height: 100%;"><img src="assets/bts_1.webp" alt="ComfyUI NYC event" style="transform: rotate(-90deg) scale(1.25); width: 100%; height: 100%; object-fit: cover;"></div>
           <img src="assets/bts_2.webp" alt="ComfyUI NYC event">
           <img src="assets/bts_6.webp" alt="ComfyUI NYC event">
         </div>
@@ -1184,7 +1182,7 @@
         <div class="split-text">
           <span class="category">Monthly Flagship</span>
           <h2>DATLAB NYC</h2>
-          <p class="event-meta">Monthly &middot; 68&ndash;266 approved per event &middot; 5 events and growing</p>
+          <p class="event-meta">Monthly &middot; 250+ approved per event &middot; 5 events and growing</p>
           <hr class="accent-line lime">
           <p>Digital Art &amp; Technology Lab. Talks, workshops, and AV performances built around TouchDesigner, Ableton, Max/MSP, and real-time creative tools. Strong art school pipeline (NYU, New School, SVA, Pratt). 300+ mailing list members and growing fast.</p>
           <p class="sponsor-label">Past Sponsors / Partners</p>
@@ -1205,7 +1203,7 @@
         <div class="split-text">
           <span class="category">New &mdash; Monthly</span>
           <h2>Gen AI Film Jam</h2>
-          <p class="event-meta">Monthly &middot; Full-day format &middot; Teams compete to make short films with AI tools</p>
+          <p class="event-meta">Monthly &middot; Teams compete to make short films with AI tools</p>
           <hr class="accent-line lime">
           <p>Teams of creatives and technologists use ZeroSpace's LED volume, studio sets, and AI tools to produce short films in a single day. Every film produced is a real-world case study for the tools used to make it.</p>
           <p>The pilot event (August 2025) drew 150 registrations with attendees from Netflix, ByteDance, Nasdaq, Capital One, and Harvard Business School. 42 on-site participants produced work in a single evening.</p>
@@ -1410,8 +1408,7 @@
       <section class="slide-pricing">
         <div class="slide-content">
           <h2>A La Carte Sponsorship</h2>
-          <hr class="accent-line cyan">
-          <div class="pricing-layout">
+          <div class="pricing-layout" style="margin-top: 0.6em;">
             <div class="pricing-col">
               <h3>Per-Event Packages</h3>
               <div class="price-item">
@@ -1534,8 +1531,7 @@
       <section class="slide-growth">
         <div class="slide-content">
           <h2>Growth Trajectory</h2>
-          <hr class="accent-line cyan">
-          <div class="growth-layout">
+          <div class="growth-layout" style="margin-top: 0.6em;">
             <div class="growth-col">
               <h3>ComfyUI NYC &mdash; Approved Attendees</h3>
               <svg viewBox="0 0 820 290" xmlns="http://www.w3.org/2000/svg" style="width: 100%; display: block;">
@@ -1708,9 +1704,9 @@
         <div class="slide-bg heavy-overlay" style="background-image: url('assets/labs2026_image7.webp');"></div>
         <div class="slide-content">
           <div class="cta-box">
-            <h1>Let's Build<br>Together</h1>
+            <h1>Let's Build Together</h1>
             <hr class="accent-line lime">
-            <p class="cta-text">We're looking for partners who want to get in front of the builders, create real content, and be part of something growing fast &mdash; 2x attendee growth and 7x mailing list growth in under a year, expanding to four event series.</p>
+            <p class="cta-text">We're looking for partners who want to get in front of the builders, create real content, and be part of something growing fast as we expand our event series and 10x our growth in 2026.</p>
             <p class="contact-name">Xuelong Mu</p>
             <p class="contact-title">Technical Director</p>
             <p class="contact-email">xuelong.mu@zerospace.co</p>
