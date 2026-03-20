@@ -1,0 +1,36 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE state
+.idea/
+.vscode/
+*.suo
+*.user
+*.userossc
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Common dependency and build output directories
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.parcel-cache/
+
+# Local export/output folders for generated deck artifacts
+out/
+exports/
